@@ -1,0 +1,197 @@
+// Game: Quake
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"wad" "../wads/rogue.wad"
+// brush 0
+{
+( -448 448 -16 ) ( -448 448 16 ) ( -448 -64 16 ) stone3_1 -48 0 0 4 1
+( 64 -64 16 ) ( 64 -64 -16 ) ( -448 -64 -16 ) stone3_1 48 0 0 4 1
+( -448 -64 -16 ) ( 64 -64 -16 ) ( 64 448 -16 ) stone3_1 48 48 0 4 4
+( 64 448 16 ) ( 64 -64 16 ) ( -448 -64 16 ) stone3_1 48 48 0 4 4
+( 64 448 -16 ) ( 64 448 16 ) ( -448 448 16 ) stone3_1 48 0 0 4 1
+( 64 448 -16 ) ( 64 -64 -16 ) ( 64 -64 16 ) stone3_1 -48 0 0 4 1
+}
+// brush 1
+{
+( 64 448 16 ) ( 64 448 48 ) ( 64 -64 48 ) +0butn 16 32 0 4 1
+( 576 -64 48 ) ( 576 -64 16 ) ( 64 -64 16 ) +0butn -16 32 0 4 1
+( 64 -64 16 ) ( 576 -64 16 ) ( 576 448 16 ) +0butn -16 -16 0 4 4
+( 576 448 272 ) ( 576 -64 272 ) ( 64 -64 272 ) +0butn -16 -16 0 4 4
+( 576 448 16 ) ( 576 448 48 ) ( 64 448 48 ) +0butn -16 32 0 4 1
+( 80 448 16 ) ( 80 -64 16 ) ( 80 -64 48 ) +0butn 16 32 0 4 1
+}
+// brush 2
+{
+( -464 448 16 ) ( -464 448 48 ) ( -464 -64 48 ) +0butnn 16 32 0 4 1
+( 48 -64 48 ) ( 48 -64 16 ) ( -464 -64 16 ) +0butnn 52 32 0 4 1
+( -464 -64 16 ) ( 48 -64 16 ) ( 48 448 16 ) +0butnn 52 -16 0 4 4
+( 48 448 272 ) ( 48 -64 272 ) ( -464 -64 272 ) +0butnn 52 -16 0 4 4
+( 48 448 16 ) ( 48 448 48 ) ( -464 448 48 ) +0butnn 52 32 0 4 1
+( -448 448 16 ) ( -448 -64 16 ) ( -448 -64 48 ) +0butnn 16 32 0 4 1
+}
+// brush 3
+{
+( -448 960 16 ) ( -448 960 48 ) ( -448 448 48 ) plat_top5 -48 32 0 4 1
+( -448 448 16 ) ( -448 448 48 ) ( 64 448 48 ) plat_top5 -48 32 0 -4 1
+( 64 448 16 ) ( 64 960 16 ) ( -448 960 16 ) plat_top5 -48 -16 90 4 4
+( -448 960 272 ) ( 64 960 272 ) ( 64 448 272 ) plat_top5 -48 -16 90 4 4
+( -448 464 16 ) ( 64 464 16 ) ( 64 464 48 ) plat_top5 -48 32 0 -4 1
+( 64 960 48 ) ( 64 960 16 ) ( 64 448 16 ) plat_top5 -48 32 0 4 1
+}
+// brush 4
+{
+( -448 432 16 ) ( -448 432 48 ) ( -448 -80 48 ) +0_lava1s 20 32 0 4 1
+( -448 -80 16 ) ( -448 -80 48 ) ( 64 -80 48 ) +0_lava1s -48 32 0 -4 1
+( 64 -80 16 ) ( 64 432 16 ) ( -448 432 16 ) +0_lava1s 20 -16 90 4 4
+( -448 432 272 ) ( 64 432 272 ) ( 64 -80 272 ) +0_lava1s 20 -16 90 4 4
+( -448 -64 16 ) ( 64 -64 16 ) ( 64 -64 48 ) +0_lava1s -48 32 0 -4 1
+( 64 432 48 ) ( 64 432 16 ) ( 64 -80 16 ) +0_lava1s 20 32 0 4 1
+}
+// brush 5
+{
+( -448 448 272 ) ( -448 448 304 ) ( -448 -64 304 ) city6_8 -48 -32 0 4 1
+( 64 -64 304 ) ( 64 -64 272 ) ( -448 -64 272 ) city6_8 48 -32 0 4 1
+( -448 -64 272 ) ( 64 -64 272 ) ( 64 448 272 ) city6_8 48 48 0 4 4
+( 64 448 304 ) ( 64 -64 304 ) ( -448 -64 304 ) city6_8 48 48 0 4 4
+( 64 448 272 ) ( 64 448 304 ) ( -448 448 304 ) city6_8 48 -32 0 4 1
+( 64 448 272 ) ( 64 -64 272 ) ( 64 -64 304 ) city6_8 -48 -32 0 4 1
+}
+// brush 6
+{
+( -384 144 272 ) ( -384 128 272 ) ( -384 128 16 ) rome20 0 0 0 4 1
+( -48 208 16 ) ( -48 208 272 ) ( -384 144 272 ) rome20 13.7143 0 180 2.625 -1
+( -384 128 16 ) ( -48 192 16 ) ( -48 208 16 ) rome20 -18.35 -13.6378 90 4 2.6695
+( -48 208 272 ) ( -48 192 272 ) ( -384 128 272 ) rome20 -18.35 -13.6378 90 4 2.6695
+( -48 192 272 ) ( -48 192 16 ) ( -384 128 16 ) rome20 13.7143 0 180 2.625 -1
+( -48 208 16 ) ( -48 192 16 ) ( -48 192 272 ) rome20 -16 0 0 4 1
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"origin" "-224 272 88"
+}
+// entity 2
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-444 260 92"
+}
+// entity 3
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-176 384 16"
+"angle" "270"
+}
+// entity 4
+{
+"classname" "monster_zombie"
+"origin" "0 336 40"
+"angle" "270"
+}
+// entity 5
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-444 332 156"
+}
+// entity 6
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-444 268 188"
+}
+// entity 7
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-444 220 188"
+}
+// entity 8
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-444 140 108"
+}
+// entity 9
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-444 76 156"
+}
+// entity 10
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-324 252 28"
+}
+// entity 11
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-180 28 28"
+}
+// entity 12
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-324 188 28"
+}
+// entity 13
+{
+"classname" "weapon_grenadelauncher"
+"origin" "-352 320 16"
+}
+// entity 14
+{
+"classname" "weapon_lightning"
+"origin" "-80 80 16"
+}
+// entity 15
+{
+"classname" "weapon_supernailgun"
+"origin" "-400 368 16"
+}
+// entity 16
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-100 202 172"
+}
+// entity 17
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-244 172 172"
+}
+// entity 18
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-196 183 76"
+}
+// entity 19
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-148 191 220"
+}
+// entity 20
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-132 170 188"
+}
+// entity 21
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-212 155 156"
+}
+// entity 22
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-68 183 220"
+}
+// entity 23
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-100 176 204"
+}
+// entity 24
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-148 172 220"
+}
+// entity 25
+{
+"classname" "weapon_nailgun"
+"origin" "-192 112 16"
+}
