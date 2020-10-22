@@ -1,7 +1,7 @@
 ---- vis / ericw-tools v0.18.1 ----
 running with 4 threads
 testlevel = 4
-LoadBSPFile: 'JailhouseRock1.bsp'
+LoadBSPFile: 'JailhouseRock.bsp'
 BSP is version 29
-LoadPortals: couldn't read JailhouseRock1.prt
+LoadPortals: couldn't read JailhouseRock.prt
 No vising performed.
