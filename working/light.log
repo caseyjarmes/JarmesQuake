@@ -1,33 +1,35 @@
 ---- light / ericw-tools v0.18.1 ----
 Raytracing backend: Embree
 running with 4 threads
-LoadBSPFile: 'JailhouseRock.bsp'
+LoadBSPFile: 'JailhouseRock1.bsp'
 BSP is version 29
 --- LoadEntities ---
-6 entities read, 4 are lights.
+WARNING: entity at (1360 48 16) (weapon_grenadelauncher) has empty key/value "delay" ""
+WARNING: entity at (-24 424 16) (weapon_supernailgun) has empty key/value "target" ""
+241 entities read, 215 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	225 solid faces
+	2450 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 4 initial lights
-SetupLights: 4 after surface lights
-SetupLights: 4 after jittering
+SetupLights: 215 initial lights
+SetupLights: 215 after surface lights
+SetupLights: 215 after jittering
 --- EstimateLightVisibility ---
-0....1....2....3....4....5....6....7..
-Final count: 4 lights 0 suns in use.
+0....1....2....3....4....5....6....7....8....9....
+Final count: 215 lights 0 suns in use.
 --- LightWorld ---
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 477
+lightdatasize: 15879
 0 switchable light styles (32 max)
-Writing JailhouseRock.bsp as BSP version 29
-0.239 seconds elapsed
+Writing JailhouseRock1.bsp as BSP version 29
+0.447 seconds elapsed
 
 stats:
-0.408732 lights tested, 0.205569 hits per sample point
+9.113526 lights tested, 3.051476 hits per sample point
 0.000000 bounce lights tested, 0.000000 hits per sample point
 0 empty lightmaps

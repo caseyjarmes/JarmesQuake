@@ -1,0 +1,61 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: JailhouseRock1.map
+Output file: JailhouseRock1.bsp
+
+---- LoadMapFile ----
+         1414 faces
+          235 brushes
+          246 entities
+           13 unique texnames
+          447 texinfo
+
+Opened WAD: ../wads/prototype_1_2.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+          230 brushes
+          224 planes
+---- CSGFaces ----
+         1384 brushfaces
+         1403 csgfaces
+         1247 mergedfaces
+---- SolidBSP ----
+         1678 split nodes
+          689 solid leafs
+          986 empty leafs
+            4 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         2659 leaffaces
+         2456 nodefaces
+---- Portalize ----
+          990 vis leafs
+          990 vis clusters
+         2573 vis portals
+---- FillOutside ----
+*** WARNING 10: Reached occupant at (-984 -168 24), no filling performed.
+Leak file written to JailhouseRock1.pts
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+Processing hull 2...
+---- WriteBSPFile ----
+Wrote JailhouseRock1.bsp
+          500 planes            10000
+         2950 vertexes          35400
+         1678 nodes             40272
+          314 texinfo           12560
+         2454 faces             49080
+         1415 clipnodes         11320
+          991 leafs             27748
+         2657 marksurfaces       5314
+         9785 surfedges         39140
+         6268 edges             25072
+           13 textures         234496
+              lightdata             0
+              visdata               0
+              entdata           15865
+
+0.722 seconds elapsed
+Peak memory usage: 13547914 (12.9M)

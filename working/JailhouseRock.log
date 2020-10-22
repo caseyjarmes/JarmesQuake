@@ -3,39 +3,38 @@ Input file: JailhouseRock.map
 Output file: JailhouseRock.bsp
 
 ---- LoadMapFile ----
-*** WARNING 06: No info_player_deathmatch entities in level
-          137 faces
-           23 brushes
-            6 entities
-            3 unique texnames
-           37 texinfo
+         1044 faces
+          173 brushes
+           18 entities
+           10 unique texnames
+          269 texinfo
 
-Opened WAD: ../wads/hipnotic.wad
+Opened WAD: ../wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-           23 brushes
-           51 planes
+          168 brushes
+          155 planes
 ---- CSGFaces ----
-          137 brushfaces
-          138 csgfaces
-          138 mergedfaces
+         1014 brushfaces
+         1004 csgfaces
+          880 mergedfaces
 ---- SolidBSP ----
-          194 split nodes
-           58 solid leafs
-          137 empty leafs
-            0 water leafs
+         1184 split nodes
+          503 solid leafs
+          680 empty leafs
+            2 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-          229 leaffaces
-          225 nodefaces
+         1786 leaffaces
+         1680 nodefaces
 ---- Portalize ----
-          137 vis leafs
-          137 vis clusters
-          329 vis portals
+          682 vis leafs
+          682 vis clusters
+         1672 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (20 72 76), no filling performed.
+*** WARNING 10: Reached occupant at (-1064 192 40), no filling performed.
 Leak file written to JailhouseRock.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
@@ -45,20 +44,20 @@ Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote JailhouseRock.bsp
-          112 planes             2240
-          269 vertexes           3228
-          194 nodes              4656
-           34 texinfo            1360
-          225 faces              4500
-          271 clipnodes          2168
-          138 leafs              3864
-          229 marksurfaces        458
-          897 surfedges          3588
-          553 edges              2212
-            3 textures          16456
+          428 planes             8560
+         2059 vertexes          24708
+         1184 nodes             28416
+          176 texinfo            7040
+         1680 faces             33600
+         2345 clipnodes         18760
+          683 leafs             19124
+         1786 marksurfaces       3572
+         6706 surfedges         26824
+         4247 edges             16988
+           10 textures         169084
               lightdata             0
               visdata               0
-              entdata             382
+              entdata            1313
 
-0.463 seconds elapsed
-Peak memory usage: 1435374 (1.4M)
+0.730 seconds elapsed
+Peak memory usage: 10609848 (10.1M)
