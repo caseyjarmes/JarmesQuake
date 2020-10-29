@@ -3,59 +3,60 @@ Input file: JailhouseRock.map
 Output file: JailhouseRock.bsp
 
 ---- LoadMapFile ----
-         1414 faces
-          235 brushes
-          244 entities
-           13 unique texnames
-          447 texinfo
+         1789 faces
+          297 brushes
+          261 entities
+           23 unique texnames
+          117 texinfo
 
-Opened WAD: ../wads/prototype_1_2.wad
+Opened WAD: C:/Users/Casey/Documents/GitHub/JarmesQuake/wads/rogue.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          230 brushes
-          224 planes
+          292 brushes
+          274 planes
 ---- CSGFaces ----
-         1384 brushfaces
-         1403 csgfaces
-         1247 mergedfaces
+         1759 brushfaces
+         1856 csgfaces
+         1658 mergedfaces
 ---- SolidBSP ----
-         1678 split nodes
-          689 solid leafs
-          986 empty leafs
-            4 water leafs
+         2214 split nodes
+          810 solid leafs
+         1225 empty leafs
+          180 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         2659 leaffaces
-         2456 nodefaces
+         4265 leaffaces
+         3960 nodefaces
 ---- Portalize ----
-          990 vis leafs
-          990 vis clusters
-         2573 vis portals
+         1405 vis leafs
+         1405 vis clusters
+         3578 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (-984 -168 24), no filling performed.
+*** WARNING 10: Reached occupant at (1016 280 24), no filling performed.
 Leak file written to JailhouseRock.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
 Processing hull 2...
+*** WARNING 16: Texture 128_honey_1 not found
 ---- WriteBSPFile ----
 Wrote JailhouseRock.bsp
-          500 planes            10000
-         2950 vertexes          35400
-         1678 nodes             40272
-          314 texinfo           12560
-         2454 faces             49080
-         1415 clipnodes         11320
-          991 leafs             27748
-         2657 marksurfaces       5314
-         9785 surfedges         39140
-         6268 edges             25072
-           13 textures         234496
+          567 planes            11340
+         4307 vertexes          51684
+         2214 nodes             53136
+           93 texinfo            3720
+         3960 faces             79200
+         1694 clipnodes         13552
+         1406 leafs             39368
+         4265 marksurfaces       8530
+        15809 surfedges         63236
+        10143 edges             40572
+           27 textures         262272
               lightdata             0
               visdata               0
-              entdata           15724
+              entdata           16622
 
-0.700 seconds elapsed
-Peak memory usage: 13547818 (12.9M)
+0.960 seconds elapsed
+Peak memory usage: 18690662 (17.8M)

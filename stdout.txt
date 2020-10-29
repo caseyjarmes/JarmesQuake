@@ -42,6 +42,7 @@ execing quake.rc
 execing default.cfg
 execing config.cfg
 couldn't exec autoexec.cfg
+Mod_LoadTexinfo: 4 texture(s) missing from BSP file
 3 demo(s) in loop
 
 FITZQUAKE 0.85 SERVER (24778 CRC)
@@ -52,7 +53,14 @@ FITZQUAKE 0.85 SERVER (24778 CRC)
 Using protocol 666
 Couldn't find a cdrip for track 0
 player entered the game
+You got the nailgun
+You got armor
+You got the Rocket Launcher
+You got the nailgun
+You got the Thunderbolt
 You got armor
 You got the Super Nailgun
+You got the Grenade Launcher
+You got the Rocket Launcher
 Client player removed
 Shutting down SDL sound
